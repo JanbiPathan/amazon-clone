@@ -18,7 +18,6 @@ A responsive Amazon-inspired e-commerce website built using HTML and CSS. This p
 
 - HTML5
 - CSS3
-- Font Awesome
 
 ## 📂 Project Structure
 
