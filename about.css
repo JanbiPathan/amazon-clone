@@ -1,0 +1,121 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #232F3E;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Section */
+main {
+    padding: 20px;
+    background-color: white;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.about-us h1, .milestones h2, .features h2 {
+    color: #FF9900;
+}
+
+.about-us p, .milestones ul {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.milestones ul {
+    list-style: square;
+    margin-left: 20px;
+}
+
+/* Feature Cards */
+.feature-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    flex-basis: 30%;
+}
+
+.card h3 {
+    color: #232F3E;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+}
+
+/* Footer */
+footer {
+    background-color: #232F3E;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content .social-media h4, .footer-content .legal-info p {
+    margin-bottom: 10px;
+}
+
+.footer-content a {
+    color: #FF9900;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}

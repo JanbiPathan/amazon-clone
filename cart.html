@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Cart Page</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+ <!-- Header Section -->
+    <header>
+<div class="nav">
+        <div class="top-bar">
+            <img src="image/logo1.jpg" alt="main-logo">
+            <input type="text" placeholder="Search Amazon.in" class="search-bar">
+            <button class="search-button">Search</button>
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="best_seller.html" class="nav-link">Best Seller</a>
+            <a href="cart.html" class="nav-link">Cart</a>
+        </div>
+</div>
+    </header>
+    <div class="cart-container">
+        <h1>Shopping Cart</h1>
+
+        <div class="cart-items">
+            <!-- Cart Item 1 -->
+            <div class="cart-item">
+                <div class="item-image">
+                    <img src="image/womenj.jpg" alt="Product Image">
+                </div>
+                <div class="item-details">
+                    <h3>Daimond Jwelary Seat</h3>
+                    <p>$25.99</p>
+                    <div class="item-quantity">
+                        <label for="quantity1">Quantity:</label>
+                        <input type="number" id="quantity1" min="1" value="1">
+                    </div>
+                </div>
+                <div class="item-total">
+                    <p>Total: $25.99</p>
+                </div>
+            </div>
+
+            <!-- Cart Item 2 -->
+            <div class="cart-item">
+                <div class="item-image">
+                    <img src="image/womenp.jpg" alt="Product Image">
+                </div>
+                <div class="item-details">
+                    <h3>Classic Women bag</h3>
+                    <p>$15.49</p>
+                    <div class="item-quantity">
+                        <label for="quantity2">Quantity:</label>
+                        <input type="number" id="quantity2" min="1" value="2">
+                    </div>
+                </div>
+                <div class="item-total">
+                    <p>Total: $30.98</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="cart-summary">
+            <h3>Order Summary</h3>
+            <p>Subtotal (2 items): <strong>$56.97</strong></p>
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </div>
+</body>
+</html>
